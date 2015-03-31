@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EMSA source="SSN" timestamp="2014-03-24T09:30:47Z" id="a"
+	xmlns="http://schemas.emsa.europa.eu/cdf/shipParticulars" xmlns:cdf="http://schemas.emsa.europa.eu/cdf">
+	<ShipParticularsMessage timestamp="2014-05-14T09:30:47Z">
+		<cdf:IMO>9117600</cdf:IMO>
+		<cdf:MMSI>636092534</cdf:MMSI>
+		<cdf:Name>VOGE FANTASY</cdf:Name>
+		<cdf:CallSign>A8MV6</cdf:CallSign>
+	</ShipParticularsMessage>
+</EMSA>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SSN2MS_ShipParticulars_Ann xmlns="urn:eu.emsa.ssn.ship">
+	<Header MSRefId="ms2ssn_shippart_sub_grpir_01" SSNRefId="130677"
+		StatusCode="OK" Version="1.0" SentAt="2014-09-26T17:35:36Z" From="SSN"
+		To="GRPIR01" />
+	<Body>
+		<ShipParticularsAnnouncement>
+			<VesselIdentification>
+				<IMONumber Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">9278387</IMONumber>
+				<Current_MMSINumber Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">247000009</Current_MMSINumber>
+				<Current_ShipName Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">test name</Current_ShipName>
+				<Current_CallSign Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">9TZW</Current_CallSign>
+				<IRNumber Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">XYZ201000222</IRNumber>
+				<ERNumber Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">123456782222</ERNumber>
+				<Current_FlagRegistry Date_Effect="2014-09-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">GR</Current_FlagRegistry>
+			</VesselIdentification>
+			<VesselInfo>
+				<Beam Date_Effect="2014-05-15T16:22:27Z" ReasonForUpdate="UP_MSSO">5.6
+				</Beam>
+				<Breadth>9.6</Breadth>
+				<DeadWeight Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">6</DeadWeight>
+				<GrossTonnage Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">6</GrossTonnage>
+				<Keel-laying_Date Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">2014-09-15T16:22:27Z</Keel-laying_Date>
+				<RecognizedOrg EUrecognised="N" PMoUrecognised="N"
+					ClassSociety="N">0</RecognizedOrg>
+				<ShipType_AISBased Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">1</ShipType_AISBased>
+				<ShipType_PSC Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">311</ShipType_PSC>
+				<ShipType_LLIBased Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">OBI</ShipType_LLIBased>
+			</VesselInfo>
+			<CurrentVesselStatus>
+				<ServiceIndicator Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">Launched</ServiceIndicator>
+				<IsBanned Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">true</IsBanned>
+				<IsDetained Date_Effect="2014-05-15T16:22:27Z"
+					ReasonForUpdate="UP_MSSO">true</IsDetained>
+			</CurrentVesselStatus>
+		</ShipParticularsAnnouncement>
+	</Body>
+</SSN2MS_ShipParticulars_Ann>
+	

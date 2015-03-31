@@ -1,0 +1,7 @@
+task csd2xsl << {
+	ant.xslt(
+		in: file('src/test/resources/csdnot-01.xml'),
+		style: file('src/main/resources/csd2cdf.xsl'),
+		out:   file("$buildDir/xsl/csdnot-01.xml")
+	)
+}
